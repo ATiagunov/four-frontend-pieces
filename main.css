@@ -1,6 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+    font-family: "Montserrat";
+}
+
 .banner {
+  position: relative;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
+  
   width: 927px;
   height: 197px;
 
@@ -8,9 +17,12 @@
   border-radius: 4px;
 }
 
-.banner h4 {
-
-  /* position: absolute; */
+.banner p {
+  position: absolute;
+  top: 20px;
+  bottom: 137px;
+  left: 52.19px;
+  right: 601.81px;
   width: 273px;
   height: 20px;
 
@@ -27,9 +39,15 @@
 }
 
 .banner h1 {
-  /* position: absolute; */
+  position: absolute;
+  top: 60px;
+  bottom: 30px;
+  left: 50px;
+  right: 394px;
+
   width: 483px;
   height: 87px;
+  
 
   /* H1 */
   font-family: 'Montserrat';
@@ -45,11 +63,20 @@
 }
 
 .banner button {
-  /* position: absolute; */
-  /* height: 16px;
-  left: 14.48%;
-  right: 15.02%;
-  top: calc(50% - 16px/2); */
+
+  /* CTA / Blue */
+  position: absolute;
+  top: 101px;
+  bottom: 40px;
+  left: 616px;
+  right: 50px;
+
+  width: 261px;
+  height: 56px;
+
+  /* Primary/White */
+  background: #FFFFFF;
+  border-radius: 4px;
 
   font-family: 'Montserrat';
   font-style: normal;
@@ -58,7 +85,6 @@
   line-height: 16px;
 
   /* identical to box height, or 100% */
-  display: flex;
   align-items: center;
   text-align: center;
 
