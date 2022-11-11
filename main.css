@@ -5,89 +5,72 @@
 }
 
 .banner {
-  position: relative;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  
-  width: 927px;
-  height: 197px;
+    width: 927px;
+    height: 197px;
 
-  background: #0079C8;
-  border-radius: 4px;
+    background: #0079C8;
+    border-radius: 4px;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .banner p {
-  position: absolute;
-  top: 20px;
-  bottom: 137px;
-  left: 52.19px;
-  right: 601.81px;
-  width: 273px;
-  height: 20px;
 
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
+    margin: 35px 0px 0px 52px;
+    align-self: flex-start;
 
-  /* identical to box height, or 100% */
+    width: 273px;
+    height: 20px;
 
-  /* Primary/White */
-  color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+
+    /* Primary/White */
+    color: #FFFFFF;
 }
 
 .banner h1 {
-  position: absolute;
-  top: 60px;
-  bottom: 30px;
-  left: 50px;
-  right: 394px;
+    margin-left: 10px;
+    width: 483px;
+    height: 87px;
 
-  width: 483px;
-  height: 87px;
-  
 
-  /* H1 */
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 44px;
+    /* H1 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 44px;
 
-  /* or 126% */
-
-  /* Primary/White */
-  color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .banner button {
+    margin: 60px 10px 0px 0px;
+    width: 261px;
+    height: 56px;
 
-  /* CTA / Blue */
-  position: absolute;
-  top: 101px;
-  bottom: 40px;
-  left: 616px;
-  right: 50px;
+    /* Primary/White */
+    background: #FFFFFF;
+    border-radius: 4px;
 
-  width: 261px;
-  height: 56px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
 
-  /* Primary/White */
-  background: #FFFFFF;
-  border-radius: 4px;
+    /* identical to box height, or 100% */
+    align-items: center;
+    text-align: center;
 
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 16px;
-
-  /* identical to box height, or 100% */
-  align-items: center;
-  text-align: center;
-
-  /* Primary/Bupa Blue */
-  color: #0079C8;
+    /* Primary/Bupa Blue */
+    color: #0079C8;
 }
