@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+    font-family: "Montserrat";
+}
+
+.banner {
+
+    background: #0079C8;
+    border-radius: 4px;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+@media (max-width:1023px) {
+    .banner {
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+@media (min-width:1024px) {
+    .banner {
+        width: 927px;
+        height: 197px;
+    }
+}
+
+
+.banner p {
+    margin: 35px 0px 0px 52px;
+    align-self: flex-start;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+
+    /* Primary/White */
+    color: #FFFFFF;
+}
+
+@media (max-width:1023px) {
+    .banner p {
+        margin: auto;
+        padding: 10px;
+        align-self:center;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+    }
+}
+
+@media (max-width:460px) {
+    .banner p {
+        margin: auto;
+        padding: 5px;
+        align-self:center;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:460px) {
+    .banner h1 {
+        margin: auto;
+        align-self:center;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+}
+
+.banner h1 {
+    margin-left: 10px;
+    width: 483px;
+    height: 87px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+@media (max-width:1023px) {
+    .banner h1 {
+        margin: auto;
+        padding: 10px;
+        width: 100%;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+    }
+}
+
+@media (max-width:460px) {
+    .banner h1 {
+        margin: auto;
+        padding: 5px;
+        width: 100%;
+        font-size: 22px;
+        line-height: 36px;
+        text-align: center;
+    }
+}
+
+.banner button {
+    margin: 60px 10px 0px 0px;
+    width: 261px;
+    height: 56px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+
+    align-items: center;
+    text-align: center;
+
+    color: #0079C8;
+}
+
+@media (max-width:1023px) {
+    .banner button {
+        margin: 5%;
+        line-height: 15px;
+        max-width: 80%;
+    }
+}
+
+
+
+
