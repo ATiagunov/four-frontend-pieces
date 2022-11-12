@@ -21,13 +21,11 @@
     .banner {
         width: 100%;
         height: fit-content;
-        /* min-height: 250px; */
     }
 }
 
 @media (min-width:1024px) {
     .banner {
-
         width: 927px;
         height: 197px;
     }
@@ -51,18 +49,32 @@
 @media (max-width:1023px) {
     .banner p {
         margin: auto;
-        padding: 5px;
+        padding: 10px;
         align-self:center;
         font-size: 18px;
+        line-height: 18px;
         text-align: center;
     }
 }
+
+@media (max-width:460px) {
+    .banner p {
+        margin: auto;
+        padding: 5px;
+        align-self:center;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+    }
+}
+
 
 @media (max-width:460px) {
     .banner h1 {
         margin: auto;
         align-self:center;
         font-size: 14px;
+        line-height: 16px;
         text-align: center;
     }
 }
@@ -72,8 +84,6 @@
     width: 483px;
     height: 87px;
 
-
-    /* H1 */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -89,6 +99,7 @@
         padding: 10px;
         width: 100%;
         font-size: 28px;
+        line-height: 40px;
         text-align: center;
     }
 }
@@ -99,6 +110,7 @@
         padding: 5px;
         width: 100%;
         font-size: 22px;
+        line-height: 36px;
         text-align: center;
     }
 }
@@ -108,7 +120,6 @@
     width: 261px;
     height: 56px;
 
-    /* Primary/White */
     background: #FFFFFF;
     border-radius: 4px;
 
@@ -118,18 +129,16 @@
     font-size: 16px;
     line-height: 16px;
 
-    /* identical to box height, or 100% */
     align-items: center;
     text-align: center;
 
-    /* Primary/Bupa Blue */
     color: #0079C8;
 }
 
 @media (max-width:1023px) {
     .banner button {
         margin: 5%;
-
+        line-height: 15px;
         max-width: 80%;
     }
 }
