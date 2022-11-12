@@ -4,8 +4,23 @@
     font-family: "Montserrat";
 }
 
+@media screen and (min-width: 992px) {
+    .banner {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .banner {
+        width: 33.33%;
+    }
+}
+
+
 .banner {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+
     width: 927px;
     height: 197px;
 
