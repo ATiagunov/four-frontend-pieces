@@ -1,35 +1,36 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 .banner {
-    margin: 10px;
+
+    padding: 20px;
     background: #0079C8;
     border-radius: 4px;
 
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
+    flex-flow: row;
+    justify-content: space-around;
     align-items: center;
+    width: auto;
+    
     gap: 10px;
 }
 
-@media (min-width:1024px) {
-    .banner {
-        width: 927px;
-        height: 197px;
-    }
-}
 
 @media (max-width:1023px) {
     .banner {
+        padding: 10px;
         width: auto;
         height: fit-content;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 .banner p {
     align-self: flex-start;
 
-    margin: 35px 40px 0px;
+    /* margin: 35px 40px 0px; */
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -66,7 +67,7 @@
 
 
 .banner h1 {
-    margin: auto;
+    /* margin: auto; */
 
     width: 483px;
     height: 87px;
@@ -130,10 +131,6 @@
         margin: 5px 5px 10px;
         padding: 10px;
         width: auto;
-
-        /* font-weight: 550;
-        font-size: 15px;
-        line-height: 15px; */
     }
 }
 
