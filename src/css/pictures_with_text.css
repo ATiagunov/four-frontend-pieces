@@ -12,6 +12,7 @@
 }
 
 .pictures_module .pictures {
+    margin:10px 10px 30px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -73,7 +74,7 @@
 
 @media (max-width:460px) {
     .pictures_module img {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 }
