@@ -9,6 +9,7 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 @media (min-width:1024px) {
@@ -20,7 +21,7 @@
 
 @media (max-width:1023px) {
     .banner {
-        width: 100%;
+        width: auto;
         height: fit-content;
     }
 }
@@ -28,7 +29,7 @@
 .banner p {
     align-self: flex-start;
 
-    margin: 35px 0px 0px 52px;
+    margin: 35px 40px 0px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -43,8 +44,7 @@
     .banner p {
         align-self: center;
 
-        margin-top: 10px;
-        padding: 10px;
+        margin: 15px 5px 5px;
 
         font-size: 18px;
         line-height: 18px;
@@ -56,8 +56,7 @@
     .banner p {
         align-self: center;
         
-        margin-top: 10px;
-        padding: 5px;
+        margin: 15px 5px 5px;
 
         font-size: 16px;
         line-height: 16px;
@@ -67,7 +66,8 @@
 
 
 .banner h1 {
-    margin-left: 10px;
+    margin: auto;
+
     width: 483px;
     height: 87px;
 
@@ -82,9 +82,11 @@
 
 @media (max-width:1023px) {
     .banner h1 {
+        margin: 5px;
+        padding: 5px 10px;
 
-        padding: 10px;
-        width: 100%;
+        width: auto;
+
         font-size: 28px;
         line-height: 40px;
         text-align: center;
@@ -94,16 +96,16 @@
 @media (max-width:460px) {
     .banner h1 {
 
+        margin: 5px;
         padding: 5px;
-        width: 100%;
         font-size: 22px;
-        line-height: 36px;
+        line-height: 30px;
         text-align: center;
     }
 }
 
 .banner button {
-    margin: 60px 10px 0px 0px;
+    margin: 60px 10px 20px;
     width: 261px;
     height: 56px;
 
@@ -124,9 +126,21 @@
 
 @media (max-width:1023px) {
     .banner button {
-        margin: 5%;
+        margin: 5px 5px 10px;
+        padding: 10px;
+        width: auto;
 
-        width: 80%;
+        /* font-weight: 550;
+        font-size: 15px;
+        line-height: 15px; */
+    }
+}
+
+@media (max-width:460px) {
+    .banner button {
+        margin: 5px 5px 10px;
+
+        width: auto;
         height: 45px;
 
         font-weight: 550;
