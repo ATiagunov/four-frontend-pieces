@@ -10,7 +10,7 @@
 }
 
 .top_block_with_picture img {
-    align-self: start;
+    align-self:flex-start;
 }
 
 @media (max-width:750px) {
@@ -25,7 +25,7 @@
         padding: 0px;
     }
     .top_block_with_picture img {
-        margin: 5px auto;
+        margin: 0px auto;
         order: -1;
         max-width: 95%;
         height: auto;

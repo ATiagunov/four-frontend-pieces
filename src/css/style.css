@@ -50,8 +50,11 @@ button {
     line-height: 24px;
 
     text-align: center;
-
     color: #0079C8;
+    border: 1px solid #0079C8;
+
+    background: #F5F5F5;
+    border-radius: 4px;
 }
 
 @media (max-width:1023px) {
