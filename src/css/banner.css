@@ -95,7 +95,8 @@
 
 @media (max-width:460px) {
     .banner h1 {
-
+        width: auto;
+        height: fit-content;
         margin: 5px;
         padding: 5px;
         font-size: 22px;
@@ -141,10 +142,11 @@
         margin: 5px 5px 10px;
 
         width: auto;
-        height: 45px;
+        height: fit-content;
 
         font-weight: 550;
         font-size: 15px;
         line-height: 15px;
     }
 }
+

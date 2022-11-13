@@ -70,3 +70,10 @@
         line-height: 22px;
     }
 }
+
+@media (max-width:460px) {
+    .pictures_module img {
+        width: 100%;
+        height: auto;
+    }
+}
