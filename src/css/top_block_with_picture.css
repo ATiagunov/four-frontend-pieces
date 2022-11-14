@@ -23,7 +23,17 @@
     .top_block_with_picture .text_block {
         margin: 0px;
         padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+
+    .top_block_with_picture .text_block button {
+        align-self:center;
+        width: 80%;
+        height: auto;
+    }
+
     .top_block_with_picture img {
         margin: 0px auto;
         order: -1;
