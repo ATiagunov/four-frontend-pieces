@@ -1,0 +1,81 @@
+/* Banner block settings */
+.banner {
+    width: 100%;
+    height: fit-content;
+
+    background: #0079C8;
+    border-radius: 4px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* p style for banner */
+.banner .text_block p {
+    margin: 40px 5px 5px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+/* H1 style for banner */
+.banner .text_block h1 {
+    width: 483px;
+    height: 87px;
+
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+.banner button {
+    margin: 50px 0px 0px;
+}
+
+@media (max-width:1023px) {
+    .banner {
+        padding: 10px;
+        width: auto;
+        height: fit-content;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner .text_block p {
+        margin: 15px 5px 5px;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .banner .text_block h1 {
+        margin: 5px;
+        padding: 5px;
+        width: auto;
+        height: auto;
+
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+    }
+}
+
+@media (max-width:460px) {
+    .banner .text_block h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .banner .text_block p {
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
