@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Open Sans");
 @import 'top_block_with_picture.css';
 @import 'middle_block_with_pictures.css';
 @import 'bottom_banner_block.css';
+@import 'services.css';
 
 
 .text_blocks_with_pictures_and_banner {
     width: 1000px;
-    padding: 50px;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
 
