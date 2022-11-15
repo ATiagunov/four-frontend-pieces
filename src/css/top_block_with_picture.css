@@ -30,8 +30,8 @@
 
     .top_block_with_picture .text_block button {
         align-self:center;
-        width: 80%;
-        height: auto;
+        width: auto;
+        /* height: auto; */
     }
 
     .top_block_with_picture img {
